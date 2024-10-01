@@ -3,5 +3,10 @@
 const prompt = require('prompt-sync')({ sigint: true });
 
 let time = prompt('What should I set the timer to? ');
-
-//....your code here
+let x = 0;
+while (x < time){
+    console.log("Tick.....")
+    x++;
+}
+console.log(" ");
+console.log('BOOM!');
